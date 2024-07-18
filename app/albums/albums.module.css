@@ -1,0 +1,58 @@
+/* components/Albums/Albums.module.css */
+.albumsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  background-color: #020202;
+  overflow-y: scroll;
+  padding: 25px;
+  height: 90vh;
+}
+
+.albumCard {
+  background-color: #2a2a2a;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.albumCard:hover {
+  transform: translateY(-5px);
+}
+
+.albumImagePlaceholder {
+  background-color: #3a3a3a;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+.albumImagePlaceholder span {
+  font-size: 2rem;
+  color: #00bcd4;
+}
+
+.albumTitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #00bcd4;
+  margin: 0 0 8px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.albumUser {
+  font-size: 0.8rem;
+  color: #ffa726;
+  margin: 0;
+}
+
+.layout {
+  overflow: scroll;
+  width: 100%;
+}

@@ -1,0 +1,21 @@
+.sidebarItem {
+    width: 93%;
+    min-height: 5vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 1.25rem; 
+    cursor: pointer;
+    padding-left: 2.5rem; 
+    padding-top: 1rem; 
+    padding-bottom: 1rem; 
+    border-radius: 30px;
+    transition: background-color 0.3s;
+    margin-left: 10px;
+    margin-top: 1rem;
+}
+
+.sidebarItem:hover {
+    background-color: #336AEA;
+}
+
